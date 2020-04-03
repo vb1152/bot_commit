@@ -5,7 +5,7 @@
 """
 bot to test deploing bots on heroku. new change
 """
-
+import config
 import logging
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
@@ -16,7 +16,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-TOKEN = "TOKEN"
+TOKEN = bot_token
 
 # Define a few command handlers. These usually take the two arguments update and
 # context. Error handlers also receive the raised TelegramError object in error.
