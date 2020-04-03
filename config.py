@@ -1,2 +1,3 @@
 # Telegram your token
-bot_token = '614422830:AAFi6QnhoIrH9b7Etkdc2gqenZ1qO9P1VVc'
+# add bot token to run bot
+bot_token = 'bot token'
